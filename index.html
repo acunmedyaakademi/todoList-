@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/todoApp.css">
+  <script src="assets/js/todoApp.js" defer></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <form class="todoForm" autocomplete="off">
+      <input type="text" name="todo" placeholder="Yeni bir görev ekle" id="todoTxt" required>
+      <button id="ekleBtn"><img src="assets/img/Vector.svg" alt=""></button>
+    </form>
+    <div class="todoText">
+      <h5>Yapılacak görevler - <span class="activeTodoCount">0</span></h5>
+      <ul class="todoList">
+
+
+      </ul>
+    </div>
+    <div class="btn">
+      <button class="clearBtn">Storage' i Temzile</button>
+      <button id="addData">Örnek Todo Ekle</button>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
